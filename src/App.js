@@ -8,11 +8,10 @@ import User from "./components/User";
 function App() {
     return (
     <div className="container">
-        <Navbar title="User App 2" />
+        <Navbar/>
         <hr />
         <User
             name = "Neslihan KOLUKISA"
-            salary = "0 TL"
             department = "KKST"
         />
 

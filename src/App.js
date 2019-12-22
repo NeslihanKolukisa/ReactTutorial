@@ -1,14 +1,13 @@
 import React from 'react';
-import User from "./components/User";
 import './App.css';
 
 
 function App() {
     return (
-    <div className="App">
-        <h4>App Component</h4>
-        <User/>
-
+    <div className="container">
+        <h4 style={{color:"blue",fontSize:"30px"}}>App Component</h4>
+        <h4 className="header">App Component</h4>
+        <h4>Neslihan</h4>
     </div>
   );
 }
